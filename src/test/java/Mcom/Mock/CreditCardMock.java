@@ -7,8 +7,6 @@ import spark.Spark;
 public class CreditCardMock {
 
 	public static void main(String[] args) {
-	
-		
 		Spark.port(8889);
 		Spark.post("/credit-card", (req,res)->
 		{
